@@ -1,0 +1,31 @@
+{
+    "Resultado": {
+        "Documento": "20555126809",
+        "RazonSocial": "MOVIJAVC E.I.R.L.",
+        "FechaNacimiento": "",
+        "FechaProceso": "05/04/2021",
+        "Semaforos": "AAAAARAAVVVVVVVVVVVAAAAA",
+        "Nota": "0.734",
+        "NroBancos": "1",
+        "DeudaTotal": "11852.76",
+        "VencidoBanco": "0.00",
+        "Calificativo": " NOR 100% CPP   0% DEF   0% DUD   0% PER   0%",
+        "SemaActual": "2",
+        "SemaPrevio": "2",
+        "SemaPeorMejor": "9",
+        "Documento2": "",
+        "EstDomic": "00",
+        "CondDomic": "00",
+        "DeudaTributaria": "0.00",
+        "DeudaLaboral": "0.00",
+        "DeudaImpaga": "2177.00",
+        "DeudaProtestos": "0.00",
+        "DeudaSBS": "9675.76",
+        "TarCtas": "0",
+        "RepNeg": "0",
+        "TipoActv": "OTROS TIPOS TRANSPORTE REG. VIA TER.",
+        "FechIniActv": "26/11/2013",
+        "DireccionFiscal": "",
+        "CodigoWS": "0"
+    }
+}
