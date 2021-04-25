@@ -1,0 +1,73 @@
+{
+	"info": {
+		"_postman_id": "6d30d1fa-41d6-4b97-b364-7ecc8e047c66",
+		"name": "sentinel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://www2.sentinelperu.com/wsrest/rest/rws_senestlitersa",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"Gx_UsuEnc\":\"87EEum0GE3WuKc/Kct9apj09WqoDOytRY/wesVwrTndoO9Ia30I0pTa1CyQ0D+71Ty0O2ReokdbAoGlBaJpCMg==\",\r\n\"Gx_PasEnc\":\"lmVlWnKgdg9iz0pKrelhOA==\",\r\n\"Gx_Key\":\"FC275BE63E233FEA116489D17127BD12\",\r\n\"TipoDoc\":\"D\",\r\n\"NroDoc\":\"72731703\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www2.sentinelperu.com/wsrest/rest/rws_senestlitersa",
+					"protocol": "https",
+					"host": [
+						"www2",
+						"sentinelperu",
+						"com"
+					],
+					"path": [
+						"wsrest",
+						"rest",
+						"rws_senestlitersa"
+					]
+				},
+				"description": "rest para consultar datos"
+			},
+			"response": []
+		},
+		{
+			"name": "https://www2.sentinelperu.com/wsrest/rest/rws_senenc",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n\"keysentinel\" : \"CF68EC06A5AB32374AA3ECBB407CA963\",\r\n\"parametro\" : \"COOPERATIVA DE AHORRO Y CREDITO LA REHABILITADORA LTDA. 24\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://www2.sentinelperu.com/wsrest/rest/rws_senenc",
+					"protocol": "https",
+					"host": [
+						"www2",
+						"sentinelperu",
+						"com"
+					],
+					"path": [
+						"wsrest",
+						"rest",
+						"rws_senenc"
+					]
+				},
+				"description": "rest para encriptar parametros contraseña y usuario"
+			},
+			"response": []
+		}
+	]
+}
