@@ -1,0 +1,2 @@
+      email [, [BcpValidators.required, BcpValidators.pattern(^(w.-)+@[a-zA-Z]+(.[a-zA-Z]+)(.[a-zA-Z]{2,5})+$)]],
+      phone [, [BcpValidators.required, BcpValidators.pattern(^[9][0-9]{8}$)]],
